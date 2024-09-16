@@ -1,7 +1,7 @@
 Comandos para acessar o sqlite3:
 
-.sqlite3 [nome do projeto sqlite]
-ex: .sqlite3 databaseDogEverMatch.sqlite;
+sqlite3 [nome do projeto sqlite]
+ex: sqlite3 databaseDogEverMatch.sqlite;
 
 Comando para listar todos as tabelas:
 .tables;
