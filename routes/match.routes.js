@@ -4,6 +4,6 @@ const authenticate = require('../middleware/authMiddleware');
 const router = express.Router();
 
 router.get('/getMatch', authenticate , getMatch);
-router.get('/postMatch', authenticate , getMatch);
+router.get('/postMatch', authenticate , postMatch);
 
 module.exports = router;

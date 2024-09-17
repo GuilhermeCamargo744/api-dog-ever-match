@@ -4,6 +4,6 @@ const authenticate = require('../middleware/authMiddleware');
 const router = express.Router();
 
 router.get('/getAllDogs', authenticate ,getAllDogs);
-router.get('/getAllDogsPerOrder', getAllDogsPerOrder);
+router.get('/getAllDogsPerOrder', authenticate,getAllDogsPerOrder);
 
 module.exports = router;

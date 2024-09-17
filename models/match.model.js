@@ -18,7 +18,7 @@ name: {
     type: DataTypes.STRING,
     allowNull: false,
     validate: {
-      len: [10, 15] 
+      len: [7, 15] 
     }
   },
   address: {
