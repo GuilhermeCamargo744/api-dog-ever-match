@@ -3,7 +3,7 @@ const { getAllDogs, getAllDogsPerOrder } = require('../controllers/dogs.controll
 const authenticate = require('../middleware/authMiddleware');
 const router = express.Router();
 
-router.get('/getAllDogs', authenticate ,getAllDogs);
-router.get('/getAllDogsPerOrder', authenticate,getAllDogsPerOrder);
+router.get('/getAllDogs' ,getAllDogs);
+router.get('/getAllDogsPerOrder',getAllDogsPerOrder);
 
 module.exports = router;
